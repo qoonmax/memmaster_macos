@@ -1,0 +1,12 @@
+body {
+    padding-top: 20px!important;
+}
+
+body.font-sans.antialiased.bg-points::before {
+    content: '';
+    width: 100%;
+    top: 0;
+    position: absolute;
+    height: 30px;
+    -webkit-app-region: drag;
+}
